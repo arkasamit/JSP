@@ -1,3 +1,4 @@
+// Task 1
 let burgerPrice = 300;
 
 if (burgerPrice > 500){
@@ -10,6 +11,8 @@ else{
     console.log("Coke Price 30tk only");
     
 }
+
+// Task 2
 
 let studentMarks = 55;
 
@@ -40,6 +43,39 @@ else {
 
 console.log("again Try");
 
+}
+
+// Task 3
+
+const myMarks = 89;
+const frndMarks = 56;
+
+if (myMarks >= 80) {
+ 
+    if (frndMarks > 80){
+
+        console.log("Let's go for lunch");     
+    }
+    else if (frndMarks >= 60){
+
+        console.log("Good Luck for next time");    
+    }
+    else if(frndMarks >= 40){
+
+        console.log("Keep his sms unseen");
+        
+    }
+    else{
+        
+        console.log("Block his number");
+        
+    }
+   
+}
+
+else {
+    console.log("I am really Sad");
+    
 }
 
 
