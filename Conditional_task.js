@@ -50,7 +50,7 @@ console.log("again Try");
 const myMarks = 89;
 const frndMarks = 56;
 
-if (myMarks >= 80) {
+if (myMarks >= 80) { //When I get 80 marks then program going to my friends portion
  
     if (frndMarks > 80){
 
