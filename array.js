@@ -37,6 +37,7 @@ const price  = 34;
 const isStudent = true;
 const names = "Rahim";
 
+//The ternary operator condition ? 'true case' : 'false case' is used for clean output.
 console.log(Array.isArray(age)? "Age is an array" : "Age not an array");
 console.log(Array.isArray(price)?"Price is an array" : "Price is a product price");
 console.log(Array.isArray(isStudent)? "isStudent is an array" : "isStudent is a boolean") 
