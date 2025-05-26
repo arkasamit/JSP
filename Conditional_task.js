@@ -92,14 +92,14 @@ if (age < 10) {
 
 else if (student == true){
 
-    let discount = ticketPrice*50/100;
+    let discount = ticketPrice*50/100; //50% discout
      finalPrice = ticketPrice - discount;
     
 }
 
 else if (age >= 60){
  
-    let discount = ticketPrice*15/100;
+    let discount = ticketPrice*15/100; //15% discount 
     finalPrice = ticketPrice - discount;
     
 
