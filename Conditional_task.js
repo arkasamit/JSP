@@ -114,20 +114,3 @@ else {
 console.log(`You have to pay ${finalPrice}`);
 
 
-
-// let age = 0;
-// let ticketPrice = 800;
-// let student = false;
-// let finalFare;
-
-// if (age < 10) {
-//   finalFare = 0;
-// } else if (student) {
-//   finalFare = ticketPrice * 0.5;
-// } else if (age >= 60) {
-//   finalFare = ticketPrice * 0.85;
-// } else {
-//   finalFare = ticketPrice;
-// }
-
-// console.log(`The final ticket fare is ${finalFare} tk`);
