@@ -78,4 +78,56 @@ else {
     
 }
 
+// Task 4
 
+let age = 50;
+let ticketPrice = 800;
+let student = false;
+let finalPrice;
+
+if (age < 10) {
+
+    finalPrice = 0
+}
+
+else if (student == true){
+
+    let discount = ticketPrice*50/100;
+     finalPrice = ticketPrice - discount;
+    
+}
+
+else if (age >= 60){
+ 
+    let discount = ticketPrice*15/100;
+    finalPrice = ticketPrice - discount;
+    
+
+}
+
+else {
+
+    finalPrice = ticketPrice;
+    
+}
+
+console.log(`You have to pay ${finalPrice}`);
+
+
+
+// let age = 0;
+// let ticketPrice = 800;
+// let student = false;
+// let finalFare;
+
+// if (age < 10) {
+//   finalFare = 0;
+// } else if (student) {
+//   finalFare = ticketPrice * 0.5;
+// } else if (age >= 60) {
+//   finalFare = ticketPrice * 0.85;
+// } else {
+//   finalFare = ticketPrice;
+// }
+
+// console.log(`The final ticket fare is ${finalFare} tk`);
