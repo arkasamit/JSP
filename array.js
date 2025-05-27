@@ -4,6 +4,8 @@ console.log(fruits[3]);
 fruits[3] = "jambura";
 
 console.log(fruits);
+console.log(fruits.indexOf("mango"));
+
 
 // Task 2
 
