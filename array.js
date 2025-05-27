@@ -43,3 +43,14 @@ console.log(Array.isArray(price)?"Price is an array" : "Price is a product price
 console.log(Array.isArray(isStudent)? "isStudent is an array" : "isStudent is a boolean") 
 console.log(Array.isArray(names)? "Name is an array" : "names is a variable");
 
+// Task 5
+
+const run = [20, 50, 100, 120];
+const batter = ["Pant", "Rahul", "Kholi", "Ganguly"]
+const total =run.concat(batter);//Concat formula in array to join two array
+
+console.log("All batter run:", run);
+console.log("Batter Name:",batter);
+console.log(total);//Combain array
+
+
