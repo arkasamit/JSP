@@ -21,7 +21,7 @@ let total = 0;
 
 while (n <= 85) {
     if (n % 2 === 0) {
-        
+
         console.log("even numbers", n);
         
         total = total + i

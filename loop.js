@@ -1,6 +1,8 @@
 
 // while loop
 
+let num = 0;
+
 while (num <= 60) {
 
     console.log("I will invest at least 6 hrs every single day for next 60 days!" , num);
@@ -52,7 +54,7 @@ for (let i = 61; i <= 100 ; i++){
    }  
 }
 
-for(i = 78; i <= 98; i++){
+for(let i = 78; i <= 98; i++){
   if (i % 2 === 0) {
 
     console.log("this is my even number", i);
