@@ -8,3 +8,12 @@ for(let i = 1; i<=10; i++){
     console.log("9 *", i, "=", multiply);// Print the result
     
 }
+
+// Task 5- Implement a countdown timer that counts down from 81 to 65.
+
+let i = 81;
+
+while (i >= 65) {
+    console.log("countdown timer", i);
+    i--;
+}
