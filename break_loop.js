@@ -23,13 +23,14 @@ while (n <= 200) {
      
     sum = sum + n;
     console.log(sum);
-    n++;
-    if (sum >= 99) {
+   
+    if (sum >= 100) {
         
         console.log("Don't be exeed" , sum);
         break;
     }
- 
+    
+  n++;
 }
 
 // Task 3 - Write a loop that goes from 1 to 100, but stops (using break) when it encounters the first square number (like 4, 9, 16, etc.)

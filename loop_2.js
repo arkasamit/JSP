@@ -24,7 +24,7 @@ while (n <= 85) {
 
         console.log("even numbers", n);
         
-        total = total + i
+        total = total + n
     }
     n++
 }
