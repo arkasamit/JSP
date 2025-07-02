@@ -24,7 +24,7 @@ while (n < 85) {
         continue;
     }
    
-    console.log("Print odd number =", n);
+    console.log(`Print odd number = ${n}`);
     n++
 }
 

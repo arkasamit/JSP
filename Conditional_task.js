@@ -111,6 +111,6 @@ else {
     
 }
 
-console.log(`You have to pay ${finalPrice}`); //${finalFare} হলো JavaScript-এর Template Literal এর অংশ। এটা ব্যবহার করে আমরা কোন ভেরিয়েবলের মান (value) বা এক্সপ্রেশনকে (expression) একটি স্ট্রিং-এর মধ্যে সহজভাবে যুক্ত করতে পারি।
+console.log(`You have to pay ${finalPrice}`); //${finalFare} হলো JavaScript-এর Template Literal `` এর অংশ। এটা ব্যবহার করে আমরা কোন ভেরিয়েবলের মান (value) বা এক্সপ্রেশনকে (expression) একটি স্ট্রিং-এর মধ্যে সহজভাবে যুক্ত করতে পারি। 
 
 
