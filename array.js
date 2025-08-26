@@ -25,9 +25,8 @@ const books = ["JS","C","Python","C++","Digital Maketing"];
 if (books.includes("JS")) {
 
     console.log("I will read");
-    
-
-} else {
+} 
+else {
     console.log("Books not found");
     
 }
