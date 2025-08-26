@@ -13,16 +13,18 @@ for (const qty of myName) {
 }
      console.log('This is a quantity:', count);
 
-    //  Another way to do this:
-    
 
-let ftyName = "Great China Empire Ltd"
+    //  Another way to do this:
+
+
+let ftyName = "Great China Empire Ltd" 
 let num = 0;
-let fix = ftyName.toLowerCase().split('');
+let fix = ftyName.toLowerCase().split(''); // split method use to make an array from string
 
 for (let i = 0; i < fix.length; i++) {
     
     if (fix[i] === 'e'){
+        
         num++
 
     }
