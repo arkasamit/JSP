@@ -57,7 +57,7 @@ function capitalWord(sentence) {
      }
 
      return emptyValue.join(' ');
-
+     
 }
 
 let example = "i am very good javascript developer"
