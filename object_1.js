@@ -65,7 +65,7 @@ let man = {
 const keyArray = Object.keys(man);
 
 console.log(keyArray.length);
-console.log(keyArray)
+console.log(keyArray);
 
 const again = Object.values(man)
 
