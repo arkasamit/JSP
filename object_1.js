@@ -37,7 +37,7 @@ console.log(car);
 
 const student = {
     name : "Arka Sarker Amit",
-    id : 0998 ,
+    id : 998,
      physics: {
         subject: "HSC Physics",
         author: "Shahjahan Tapan",
