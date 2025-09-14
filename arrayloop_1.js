@@ -16,11 +16,11 @@ for (let i = 0; i < colors.length; i++) {
 rev_color.unshift(colors[i])
     
 }
-
 console.log(rev_color);
 
 
 
+// Type 2
 
 const color = ['red', 'blue', 'green', 'yellow', 'orange'];
 
