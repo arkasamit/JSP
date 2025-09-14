@@ -21,3 +21,18 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 console.log(evenNum);
+
+
+// for of solution 
+
+
+for (const even of numbers) {
+
+    if(even % 2 ===0){
+        
+       evenNum.push(even);
+    }
+
+}
+
+console.log(evenNum);
