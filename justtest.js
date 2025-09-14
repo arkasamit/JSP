@@ -144,7 +144,6 @@ let  result = Object.values(myObj);
 
 for (let i = 0; i < convertArray.length; i++) {
      
-  
     console.log(`${convertArray[i]} | ${typeof(result[i])}`);
 
     
