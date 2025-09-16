@@ -2,7 +2,6 @@
 const fruits = ["mango","jackfruits","Watermelon","Lichi","apple"];
 console.log(fruits[3]);
 fruits[3] = "jambura";
-
 console.log(fruits);
 console.log(fruits.indexOf("mango"));
 
@@ -14,7 +13,6 @@ const tourist = ["Cox-Bazar","Kashmir","Ayodhaya"];
 tourist.push("Saint-martin"); //added one tourist place 
 tourist.push("Bogura","Rangpur");//added another two tourist place
 tourist.pop("Rangpur");// remove lasrt tourist place 
-
 console.log(tourist);//final result
 console.log(tourist.length);//array length output
 
@@ -23,12 +21,10 @@ console.log(tourist.length);//array length output
 const books = ["JS","C","Python","C++","Digital Maketing"];
 
 if (books.includes("JS")) {
-
     console.log("I will read");
 } 
 else {
-    console.log("Books not found");
-    
+    console.log("Books not found");   
 }
 
 // Task 4

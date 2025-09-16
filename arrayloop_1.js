@@ -13,8 +13,7 @@ const rev_color = [];
 
 for (let i = 0; i < colors.length; i++) {
 
-rev_color.unshift(colors[i])
-    
+rev_color.unshift(colors[i])    
 }
 console.log(rev_color);
 
