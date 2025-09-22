@@ -2,11 +2,13 @@ function leapYear(year) {
     
 if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
     
-    return (`${year} year is leap year`); 
+    // return (`${year} year is leap year`); 
+    return true;
 }
 else{
  
-    return (`${year} year is normal year`);  
+    // return (`${year} year is normal year`);  
+    return false;
 }
 }
 
