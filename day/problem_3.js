@@ -12,7 +12,7 @@ for (const oddNum of num) {
 }
 if (odd.length === 0) {
 
-    return 0
+    return 0    // No odd numbers, avoid division by zero
 
 }
 
