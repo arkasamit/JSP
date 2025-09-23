@@ -17,6 +17,7 @@ if (odd.length === 0) {
 }
 
 return  sum / odd.length
+
 }
 
 const putArray = oddNum_avg([10, 2, 10, 20])
