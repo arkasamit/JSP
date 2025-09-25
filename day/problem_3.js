@@ -23,4 +23,4 @@ return  sum / odd.length
 const putArray = oddNum_avg([10, 2, 11, 21])
 console.log(putArray);
 
-    
+//Complete problem
