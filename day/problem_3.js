@@ -20,7 +20,7 @@ return  sum / odd.length
 
 }
 
-const putArray = oddNum_avg([10, 2, 10, 20])
+const putArray = oddNum_avg([10, 2, 11, 21])
 console.log(putArray);
 
     
