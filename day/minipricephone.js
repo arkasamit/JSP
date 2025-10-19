@@ -11,7 +11,7 @@ const mobile = [
 function buyPhone(cost) {
     let miniPrice = cost[0];
     for (let mini of cost) {
-        if (miniPrice.price > mini.price) { 
+        if (miniPrice.price  mini.price) { 
 
            miniPrice = mini;
         }
