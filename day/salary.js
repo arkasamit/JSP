@@ -13,22 +13,24 @@ function employeeSalaries(employeeList) {
 
     if (!Array.isArray(employeeList) ||  employeeList.length === 0 ) {
 
-      return `Error:Please provide vaid array`
+      return `Error: Please provide valid array`
     }
 
      let totalSalaryPay = 0; 
  
     for (const salary of employeeList) {
 
+        // Validation Number 
         if (typeof salary.experience !== 'number' || typeof salary.starting !== 'number' || typeof salary.increment !== 'number') {
-                return `Error:Provide only Number`
-        } // Validation Number 
+              return `Error: Provide only Number`
+        } 
         
         // Check for negative values
        if (salary.experience < 0 || salary.starting < 0 || salary.increment < 0) {
         return "Error: Negative values are not allowed";
     }
 
+    // main function work
     let totalIncrement = salary.experience * salary.increment;
     let totalIndividualSalary = totalIncrement + salary.starting;
     totalSalaryPay = totalSalaryPay + totalIndividualSalary;
