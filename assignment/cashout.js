@@ -3,7 +3,7 @@
 function cashOut(money, rate = 1.75) {
 
     if (typeof money !== "number" || money < 0 ) {
-        return `Invalid`
+        return `Invalid`;
     }
     
     let cashOutCharge = money * (rate/100);
