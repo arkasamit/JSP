@@ -5,9 +5,9 @@ function  marriage(groom, bride) {
         return "Invalid"
     }
 
-    let diffence = Math.abs(groom.age - bride.age);
+    let difference = Math.abs(groom.age - bride.age);
 
-    if(groom.gender !== bride.gender && diffence <= 7 && groom.age > bride.age){
+    if(groom.gender !== bride.gender && difference <= 7 && groom.age >= bride.age){
 
         return true;
     }
