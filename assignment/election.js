@@ -40,7 +40,7 @@ function election(voteArr) {
       if (result.length > 1) {
         return "Draw";
         }
-    else {
+     else {
        return result[0];
      }
     
