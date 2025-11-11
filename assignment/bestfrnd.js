@@ -5,6 +5,9 @@ function isBestFriend(f1, f2) {
     if(typeof f1 !== "object" || typeof f2 !== "object" || f1 === null || f2 === null){
      return "Invalid";
     }
+
+    // (e.g., 0, null, undefined, false, "")
+    
        if (!f1.Roll || !f1.BestFriend || !f2.Roll || !f2.BestFriend) {
         return "Invalid";
     }
