@@ -80,20 +80,20 @@ else {
 
 // Task 4
 
-let age = 50;
+let age = 60;
 let ticketPrice = 800;
 let student = false;
 let finalPrice;
 
 if (age < 10) {
 
-    finalPrice = 0
+    finalPrice = 0;
 }
 
 else if (student == true){
 
     let discount = ticketPrice*50/100; //50% discout
-     finalPrice = ticketPrice - discount;
+    finalPrice = ticketPrice - discount;
     
 }
 

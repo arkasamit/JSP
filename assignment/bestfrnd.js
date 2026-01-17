@@ -7,8 +7,8 @@ function isBestFriend(f1, f2) {
     }
 
     // (e.g., 0, null, undefined, false, "")
-    
-       if (!f1.Roll || !f1.BestFriend || !f2.Roll || !f2.BestFriend) {
+      
+       if(!f1.Roll || !f1.BestFriend || !f2.Roll || !f2.BestFriend) {
         return "Invalid";
     }
     
