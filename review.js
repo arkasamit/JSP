@@ -89,3 +89,21 @@ else{
 }
 
 console.log(`Our ticket price is ${finalFare}`);
+
+// loop task
+
+let sentence =  "I ill invest at least 6 hrs every single day for next 60 days!"
+
+for (let i = 0; i < 60; i++) {
+
+  let count =  i + 1;
+  console.log(`${count}. ${sentence}`);
+}
+
+for (let i = 61; i <= 100; i++) {
+  
+  if (i % 2 !== 0) {
+    let oddNumber = i;
+    console.log("This is my odd number :",i);
+  }
+  }
