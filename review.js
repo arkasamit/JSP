@@ -107,3 +107,54 @@ for (let i = 61; i <= 100; i++) {
     console.log("This is my odd number :",i);
   }
   }
+
+// ODD Sum
+
+let  theTotal =  0;
+
+for (let i = 91; i <= 129; i++){
+
+if (i % 2 !== 0) {
+  theTotal += i;
+  console.log(theTotal);
+}
+
+}
+
+// Generate a multiplication table for number 9
+
+let table = 9;
+
+for (let i = 1;  i <= 10; i++) {
+
+  let multiply = table * i;
+  console.log(`${table} * ${i} = ${multiply}`);
+  
+  
+}
+
+// Generate a multiplication table for number 9 Using function
+
+function multiplication(a) {
+  
+  for (let i = 1;  i <= 10; i++) {
+   
+  let multiply = a * i;
+  console.log(`${a} * ${i} = ${multiply}`);
+ 
+}
+}
+
+multiplication(10);
+
+// Implement a countdown timer that counts down from 81 to 65.
+
+
+  for (let i = 81; i >= 65; i--){
+    
+    console.log(i);
+    
+   
+  }
+  
+
