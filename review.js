@@ -144,17 +144,28 @@ function multiplication(a) {
  
 }
 }
-
 multiplication(10);
 
 // Implement a countdown timer that counts down from 81 to 65.
 
-
-  for (let i = 81; i >= 65; i--){
-    
+  for (let i = 81; i >= 65; i--){ 
     console.log(i);
     
-   
   }
   
+//  Subtask-1:
 
+// Display sum of all the odd numbers from 81 to 131.
+
+let toto = 0;
+let i = 81;
+
+while (i <= 131) {
+  
+  if (i % 2 !== 0) {
+    toto = toto + i;
+    console.log(toto);
+   
+  }
+i++;
+}
