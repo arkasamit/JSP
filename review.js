@@ -1,174 +1,174 @@
-// // Review day one
+// Review day one
 
-// let myTaka = 1000;
-// let applePrice = 300;
-// let orangePrice = 400;
+let myTaka = 1000;
+let applePrice = 300;
+let orangePrice = 400;
 
-// let returnMyMoney = myTaka - (applePrice + orangePrice);
-// console.log(returnMyMoney);
+let returnMyMoney = myTaka - (applePrice + orangePrice);
+console.log(returnMyMoney);
 
-// // next problem
+// next problem
 
-// let math = 75.25;
-// let biology = 65;
-// let chemistry = 80;
-// let physics = 35.45;
-// let bangla = 99.50;
+let math = 75.25;
+let biology = 65;
+let chemistry = 80;
+let physics = 35.45;
+let bangla = 99.50;
 
-// let totalMarks = math + biology + chemistry + physics + bangla;
-// let myAvg = totalMarks / 5;
-// console.log(myAvg.toFixed(2));
+let totalMarks = math + biology + chemistry + physics + bangla;
+let myAvg = totalMarks / 5;
+console.log(myAvg.toFixed(2));
 
-// // third repeat problem
-// let number = 119;
-// console.log(number % 5);
+// third repeat problem
+let number = 119;
+console.log(number % 5);
 
-// // Fourth Problem
+// Fourth Problem
 
-// let  myScore = 80;
-// let frndScore = 76;
+let  myScore = 80;
+let frndScore = 76;
 
 
-// if (myScore >= 80) {
+if (myScore >= 80) {
 
-//  if (frndScore >= 80) {
+ if (frndScore >= 80) {
 
-//         console.log(" Let's go for lunch"); 
-//     }
-//   else if(frndScore < 80 || frndScore >= 60){
+        console.log(" Let's go for lunch"); 
+    }
+  else if(frndScore < 80 || frndScore >= 60){
 
-//     console.log("good luck next time"); 
-//   }
-//    else if(frndScore < 60 || frndScore >= 40){
+    console.log("good luck next time"); 
+  }
+   else if(frndScore < 60 || frndScore >= 40){
 
-//     console.log("keep your friend's message unseen."); 
-//   }
+    console.log("keep your friend's message unseen."); 
+  }
     
-//   else if(frndScore < 40 ){
+  else if(frndScore < 40 ){
 
-//     console.log("block your friend");  
-//   }
+    console.log("block your friend");  
+  }
    
-// } 
+} 
 
-// else {
+else {
 
-//     console.log("Go Home & Sleep");
+    console.log("Go Home & Sleep");
     
-// }
+}
 
 
-// // Question 4
+// Question 4
 
-// let TicketFare = 800;
-// let age = 60;
-// let isStudent = false;
-// let finalFare;
+let TicketFare = 800;
+let age = 60;
+let isStudent = false;
+let finalFare;
 
 
-// if (age < 10) {
+if (age < 10) {
 
-//  finalFare = 0;
+ finalFare = 0;
 
-// }
-// else if(isStudent === true){
+}
+else if(isStudent === true){
 
-//     let discountPrice = TicketFare / 2;
-//     finalFare = discountPrice;
+    let discountPrice = TicketFare / 2;
+    finalFare = discountPrice;
 
-// }
+}
 
-// else if(age >= 60){
+else if(age >= 60){
  
-//      discountPrice = TicketFare * 0.85;
-//      finalFare = discountPrice;
-// }
+     discountPrice = TicketFare * 0.85;
+     finalFare = discountPrice;
+}
 
-// else{
-//      finalFare = TicketFare;
-// }
+else{
+     finalFare = TicketFare;
+}
 
-// console.log(`Our ticket price is ${finalFare}`);
+console.log(`Our ticket price is ${finalFare}`);
 
-// // loop task
+// loop task
 
-// let sentence =  "I ill invest at least 6 hrs every single day for next 60 days!"
+let sentence =  "I ill invest at least 6 hrs every single day for next 60 days!"
 
-// for (let i = 0; i < 60; i++) {
+for (let i = 0; i < 60; i++) {
 
-//   let count =  i + 1;
-//   console.log(`${count}. ${sentence}`);
-// }
+  let count =  i + 1;
+  console.log(`${count}. ${sentence}`);
+}
 
-// for (let i = 61; i <= 100; i++) {
+for (let i = 61; i <= 100; i++) {
   
-//   if (i % 2 !== 0) {
-//     let oddNumber = i;
-//     console.log("This is my odd number :",i);
-//   }
-//   }
+  if (i % 2 !== 0) {
+    let oddNumber = i;
+    console.log("This is my odd number :",i);
+  }
+  }
 
-// // ODD Sum
+// ODD Sum
 
-// let  theTotal =  0;
+let  theTotal =  0;
 
-// for (let i = 91; i <= 129; i++){
+for (let i = 91; i <= 129; i++){
 
-// if (i % 2 !== 0) {
-//   theTotal += i;
-//   console.log(theTotal);
-// }
+if (i % 2 !== 0) {
+  theTotal += i;
+  console.log(theTotal);
+}
 
-// }
+}
 
-// // Generate a multiplication table for number 9
+// Generate a multiplication table for number 9
 
-// let table = 9;
+let table = 9;
 
-// for (let i = 1;  i <= 10; i++) {
+for (let i = 1;  i <= 10; i++) {
 
-//   let multiply = table * i;
-//   console.log(`${table} * ${i} = ${multiply}`);
+  let multiply = table * i;
+  console.log(`${table} * ${i} = ${multiply}`);
   
   
-// }
+}
 
-// // Generate a multiplication table for number 9 Using function
+// Generate a multiplication table for number 9 Using function
 
-// function multiplication(a) {
+function multiplication(a) {
   
-//   for (let i = 1;  i <= 10; i++) {
+  for (let i = 1;  i <= 10; i++) {
    
-//   let multiply = a * i;
-//   console.log(`${a} * ${i} = ${multiply}`);
+  let multiply = a * i;
+  console.log(`${a} * ${i} = ${multiply}`);
  
-// }
-// }
-// multiplication(10);
+}
+}
+multiplication(10);
 
-// // Implement a countdown timer that counts down from 81 to 65.
+// Implement a countdown timer that counts down from 81 to 65.
 
-//   for (let i = 81; i >= 65; i--){ 
-//     console.log(i);
+  for (let i = 81; i >= 65; i--){ 
+    console.log(i);
     
-//   }
+  }
   
-// //  Subtask-1:
+//  Subtask-1:
 
-// // Display sum of all the odd numbers from 81 to 131.
+// Display sum of all the odd numbers from 81 to 131.
 
-// let toto = 0;
-// let i = 81;
+let toto = 0;
+let i = 81;
 
-// while (i <= 131) {
+while (i <= 131) {
   
-//   if (i % 2 !== 0) {
-//     toto = toto + i;
-//     console.log(toto);
+  if (i % 2 !== 0) {
+    toto = toto + i;
+    console.log(toto);
    
-//   }
-// i++;
-// }
+  }
+i++;
+}
 
 
 // Write a loop that goes from 1 to 100, but stops (using break) when it encounters the first square number (like 4, 9, 16, etc.)
@@ -181,4 +181,19 @@ for (let i = 1; i <= 100; i++) {
   } else {
     console.log(i);               // Print non-square numbers
   }
+}
+
+
+// display odd number from 55 to 85 and skip the numbers divisible by 5.
+
+for (let  i = 55;  i <= 85; i++) {
+
+  if (i % 2 ===0 || i % 5 === 0 ) {
+
+    continue;
+  }
+
+  console.log(i);
+  
+  
 }
