@@ -197,3 +197,92 @@ for (let  i = 55;  i <= 85; i++) {
   
   
 }
+
+// Write a JavaScript code to reverse the array colors without using the reverse method.
+
+// Input: const colors = ['red', 'blue', 'green', 'yellow', 'orange']
+
+// Output:
+
+// ['orange', 'yellow', 'green', 'blue', 'red']
+
+
+const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+const revColor = [];
+
+for (let i = 0; i < colors.length; i++) {
+ 
+   revColor.unshift(colors[i]);
+
+}
+  console.log(revColor);
+
+
+  const person = [];
+person["firstName"] = "John";
+person["lastName"] = "Doe";
+person["age"] = 46;
+person.length;     // Will return 0
+person[0];  
+console.log(person);
+
+// Write a JavaScript code to get the even numbers from an array using any looping technique.
+
+// Input: const numbers = [12, 98, 5, 41, 23, 78, 46];
+
+
+
+const numbers = [12, 98, 5, 41, 23, 78, 46];
+
+const evenNumber = [];
+
+for (let i = 0; i < numbers.length; i++) {
+   
+  if (numbers[i] % 2 === 0) {
+    
+    evenNumber.push(numbers[i]);
+  }
+
+}
+console.log(evenNumber);
+
+// Use a for...of loop to concatenate all the elements of an array into a single string.
+
+// Input: var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
+
+var cartoon = ['Tom', 'Tim', 'Tin', 'Tik'];
+let concatCartoon = '';
+
+for (const i of cartoon) {
+  
+  concatCartoon = concatCartoon + i;
+
+}
+console.log(concatCartoon);
+
+// Reverse the words of a sentence. Only the position of the word will be reversed. check out the output
+
+// Input: const statement = 'I am a hard working person'  
+
+const statement = 'I am a hard working person'  
+const stateArray = statement.split(' ');
+const emptyA = [];
+
+
+for (const i of stateArray) {
+ 
+   emptyA.unshift(i);
+   
+
+  
+}
+
+let newStatement = emptyA.join(' ');
+console.log(newStatement);
+
+// 2nd way
+
+const statements = 'I am a hard working person';
+const newStatements = statement.split(' ').reverse().join(' ');
+console.log(newStatements);
+
