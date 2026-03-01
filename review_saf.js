@@ -99,4 +99,24 @@ function findVowel(state) {
 
 console.log(findVowel("I am very Hungry"));
 
+// If a given string has either x, replace x by y. if the given string has X, replace it by Y.
 
+let word = "xY";
+let words = "Yx"
+let result = word.replaceAll("x" ,"X").replaceAll("Y", "y");
+let results = words.replaceAll("x" ,"X").replaceAll("Y", "y");
+console.log(result + results);
+
+// Using function
+
+function replace(str) {
+    
+    let finalResult = str.replaceAll("x", "X").replaceAll("y", "Y");
+
+    return finalResult;
+}
+
+let value = "xy";
+let values = "Yy";
+
+console.log(replace(value)+ replace(values));
