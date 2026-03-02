@@ -120,3 +120,39 @@ let value = "xy";
 let values = "Yy";
 
 console.log(replace(value)+ replace(values));
+
+
+// Capitalize Every first Letter of each word in a String
+
+let statement = "arka sarker amit";
+let createarr = statement.split(" ");
+let emptyarr = [];
+
+for (const i of createarr) {
+    
+    let capital = i[0].toUpperCase() + i.slice(1);
+    emptyarr.push(capital);
+   
+}
+
+console.log(emptyarr.join(" "));
+
+
+
+
+// Capitalize Every first Letter of each word in a String
+
+let state = "arka sarker amit";
+let createarry = state.split(" ");
+let grandfinale = [];
+
+for (const word of createarry) {
+    
+    let resulti = word.split('');
+    let finalResultm = resulti[0].toUpperCase() + resulti.slice(1).join("") ;
+    // grandfinalem =  finalResultm.join(" ");
+     grandfinale.push(finalResultm);
+    
+}
+
+  console.log(grandfinale.join(" "));  
