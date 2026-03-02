@@ -150,7 +150,6 @@ for (const word of createarry) {
     
     let resulti = word.split('');
     let finalResultm = resulti[0].toUpperCase() + resulti.slice(1).join("") ;
-    // grandfinalem =  finalResultm.join(" ");
      grandfinale.push(finalResultm);
     
 }
