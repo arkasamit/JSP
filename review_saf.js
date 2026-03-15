@@ -149,7 +149,7 @@ let grandfinale = [];
 for (const word of createarry) {
     
     let resulti = word.split('');
-    let finalResultm = resulti[0].toUpperCase() + resulti.slice(1).join("") ;
+    let finalResultm = resulti[0].toUpperCase() + resulti.slice(1).join("");
      grandfinale.push(finalResultm);
     
 }
