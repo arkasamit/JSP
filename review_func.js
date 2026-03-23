@@ -44,7 +44,7 @@ function make_avg(arrnumber) {
 
     avg = arrnumber[i] + avg;
   }
-  
+
   let finalresult = avg / arrnumber.length;
   return finalresult;
 }
@@ -56,3 +56,42 @@ const arrValueodd = make_avg([3, 3, 3, 5]);
 console.log(arrValueodd.toFixed(2));
 
 
+// Task-4
+// Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
+
+function count_zero(bnrString) {
+
+    let count = 0;
+
+    for (const i of bnrString) {
+       if (i === "0") {
+        count++
+       }
+    }
+
+  return count;    
+}
+
+let finalResult = count_zero("00110100");
+console.log(finalResult);
+
+
+// Task-5
+// Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd.
+
+
+function odd_even(value) {
+
+    if (value % 2 === 0) {
+
+        return "Even";
+        
+    }
+    else {
+        return "Odd"
+    }
+    // return value % 2 === 0 ? "Even" : "Odd";
+}
+
+let integerNum = odd_even(20);
+console.log(integerNum);
