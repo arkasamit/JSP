@@ -8,6 +8,7 @@
     };
 
     console.log(colors["golden rod"]);
+    console.log(colors.blue);
 
 // For this object below add a property named passenger capacity with value 5
 
@@ -32,7 +33,7 @@ const student = {
     }
 };
 
-console.log(student.physics.marks);
+console.log(student["physics"]["marks"]);
 
 // Count the number of properties.
 
@@ -45,5 +46,22 @@ const students = {
 
 let count = Object.keys(students).length;
 console.log(count);
+
+// Loop through an object and print the key-value pairs with their types
+
+const myObject = {
+
+name: 'John Doe',
+age: 25,
+city: 'Example City',
+isStudent: true
+};
+
+for (const key in myObject) {
+  
+    console.log(`key : ${key} || type: ${typeof myObject[key]} || value: ${myObject[key]}`);
+}
+
+
 
 
